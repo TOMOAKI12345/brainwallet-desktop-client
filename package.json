@@ -1,0 +1,42 @@
+{
+  "name": "brainwallet-desktop-client",
+  "description": "Let's you build your node webkit apps with grunt",
+  "version": "2.0.0",
+  "author": {
+    "name": "Steffen Müller",
+    "email": "steffen@mllrsohn.com"
+  },
+  "scripts": {
+    "test": "echo 'Tests exist in NW.js-builder project; http://github.com/mllrsohn/node-webkit-builder'",
+    "start": "nw"
+  },
+  "bugs": {
+    "url": "https://github.com/mllrsohn/grunt-nw-builder/issues"
+  },
+  "licenses": "MIT",
+  "main": "src/index.html",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "NW.js",
+    "node-webkit",
+    "nw-builder",
+    "build",
+    "builder",
+    "desktop",
+    "application"
+  ],
+  "dependencies": {
+    "nw-builder": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "gulp-util": "^3.0.6",
+    "nw-builder": "^2.0.2"
+  }
+}

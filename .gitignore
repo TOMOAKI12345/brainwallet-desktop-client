@@ -1,0 +1,10 @@
+.DS_Store
+.tmp/
+build/
+.build/
+.tx/
+.idea/
+npm-debug.log
+packages
+node_modules
+config.js
